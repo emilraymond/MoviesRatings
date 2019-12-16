@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f945b139-a786-445a-a14f-34d74e9666fb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1V3isXWNs6Ccu5XPw0AmTBDiZrt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="moviesRatings" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="io.beanbags.scalaproject.moviesRatings" />
+      <module name="MoviesRatings" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.beanbags.scalaproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.moviesRatings" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="MoviesRatings" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="moviesratings [file:/home/ubuntu/Desktop/MoviesRatings/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="MoviesRatings-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3152981466066" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2777405097" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="3724303870" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../MovieRec" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../WordCount" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f945b139-a786-445a-a14f-34d74e9666fb" name="Default Changelist" comment="" />
+      <created>1576488386618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576488386618</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576496048130">
+      <screen x="67" y="27" width="1297" height="741" />
+    </state>
+    <state x="448" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1297.741@67.27.1297.741" timestamp="1576496048130" />
+    <state width="1251" height="175" key="GridCell.Tab.0.bottom" timestamp="1576510539821">
+      <screen x="67" y="27" width="1297" height="741" />
+    </state>
+    <state width="1251" height="175" key="GridCell.Tab.0.bottom/67.27.1297.741@67.27.1297.741" timestamp="1576510539821" />
+    <state width="1251" height="175" key="GridCell.Tab.0.center" timestamp="1576510539817">
+      <screen x="67" y="27" width="1297" height="741" />
+    </state>
+    <state width="1251" height="175" key="GridCell.Tab.0.center/67.27.1297.741@67.27.1297.741" timestamp="1576510539817" />
+    <state width="1251" height="175" key="GridCell.Tab.0.left" timestamp="1576510539816">
+      <screen x="67" y="27" width="1297" height="741" />
+    </state>
+    <state width="1251" height="175" key="GridCell.Tab.0.left/67.27.1297.741@67.27.1297.741" timestamp="1576510539816" />
+    <state width="1251" height="175" key="GridCell.Tab.0.right" timestamp="1576510539821">
+      <screen x="67" y="27" width="1297" height="741" />
+    </state>
+    <state width="1251" height="175" key="GridCell.Tab.0.right/67.27.1297.741@67.27.1297.741" timestamp="1576510539821" />
+    <state x="371" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576504662886">
+      <screen x="67" y="27" width="1297" height="741" />
+    </state>
+    <state x="371" y="224" key="com.intellij.ide.util.TipDialog/67.27.1297.741@67.27.1297.741" timestamp="1576504662886" />
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1576502187851">
+      <screen x="67" y="27" width="1297" height="741" />
+    </state>
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1297.741@67.27.1297.741" timestamp="1576502187851" />
+  </component>
+</project>
