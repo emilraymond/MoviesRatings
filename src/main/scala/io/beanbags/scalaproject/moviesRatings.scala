@@ -25,6 +25,8 @@ object moviesRatings {
 
     val sqlContext = new SQLContext(sc)
 
+    val hdfs_URL = "hdfs://localhost:9000/"
+
     /*====================================================================================================*/
     /*============================================ Input File ============================================*/
     /*====================================================================================================*/
@@ -34,7 +36,7 @@ object moviesRatings {
       .format("csv")
       .option("header", "true") //first line in file has headers
       .option("inferSchema", "true")
-      .load("hdfs://localhost:9000/datasets/ratings.csv")
+      .load(hdfs_URL + "datasets/ratings.csv")
       .drop("userId", "timestamp")
 
     println("Reading movies.csv at: " + LocalTime.now())
@@ -42,7 +44,7 @@ object moviesRatings {
       .format("csv")
       .option("header", "true") //first line in file has headers
       .option("inferSchema", "true")
-      .load("hdfs://localhost:9000/datasets/movies.csv")
+      .load(hdfs_URL + "datasets/movies.csv")
 
     /*====================================================================================================*/
     /*========================================== Main Operation ==========================================*/
@@ -66,7 +68,7 @@ object moviesRatings {
       .mode("overwrite")
       .format("com.databricks.spark.csv")
       .option("header", "true")
-      .save("hdfs://localhost:9000/output/result.csv")
+      .save(hdfs_URL + "output/result.csv")
 
     var endTime = LocalTime.now()
     println("Finished all operations at: " + endTime)
