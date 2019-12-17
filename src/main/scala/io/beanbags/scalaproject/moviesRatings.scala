@@ -34,7 +34,7 @@ object moviesRatings {
       .format("csv")
       .option("header", "true") //first line in file has headers
       .option("inferSchema", "true")
-      .load("datasets/ratings.csv")
+      .load("hdfs://localhost:9000/datasets/ratings.csv")
       .drop("userId", "timestamp")
 
     println("Reading movies.csv at: " + LocalTime.now())
@@ -42,7 +42,7 @@ object moviesRatings {
       .format("csv")
       .option("header", "true") //first line in file has headers
       .option("inferSchema", "true")
-      .load("datasets/movies.csv")
+      .load("hdfs://localhost:9000/datasets/movies.csv")
 
     /*====================================================================================================*/
     /*========================================== Main Operation ==========================================*/
@@ -66,12 +66,14 @@ object moviesRatings {
       .mode("overwrite")
       .format("com.databricks.spark.csv")
       .option("header", "true")
-      .save("Movies Ratings.csv")
+      .save("hdfs://localhost:9000/output/result.csv")
 
     var endTime = LocalTime.now()
     println("Finished all operations at: " + endTime)
 
-    // Print Duration
+    /*====================================================================================================*/
+    /*========================================== Print Duration ==========================================*/
+    /*====================================================================================================*/
     var duration = Duration.between(startTime, endTime).getSeconds()
     var sec = duration % 60
     var min = (duration / 60) % 60
