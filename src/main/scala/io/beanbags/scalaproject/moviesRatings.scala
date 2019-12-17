@@ -56,7 +56,7 @@ object moviesRatings {
       .groupBy("title")
       .agg(avg("rating")
         .alias("Average rating"))
-      .orderBy(desc("Average rating"))
+      .orderBy(desc("Average rating"), asc("title"))
 
     /*====================================================================================================*/
     /*============================================ Output File ===========================================*/
