@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f945b139-a786-445a-a14f-34d74e9666fb" name="Default Changelist" comment="" />
+    <list default="true" id="f945b139-a786-445a-a14f-34d74e9666fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Movies Ratings.csv/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movies Ratings.csv/.part-00000-12c3d526-2790-45e4-9890-a2afc51fdfac-c000.csv.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movies Ratings.csv/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Movies Ratings.csv/part-00000-12c3d526-2790-45e4-9890-a2afc51fdfac-c000.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/io/beanbags/scalaproject/moviesRatings.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/io/beanbags/scalaproject/moviesRatings.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/META-INF/MoviesRatings.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/io/beanbags/scalaproject/moviesRatings$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/io/beanbags/scalaproject/moviesRatings$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.11.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.11.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/out" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,16 +36,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1V3isXWNs6Ccu5XPw0AmTBDiZrt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager">
@@ -81,7 +102,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3152981466066" />
+        <entry key="$PROJECT_DIR$" value="3153142229680" />
         <entry key="$PROJECT_DIR$/build.sbt" value="2777405097" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3724303870" />
       </map>
@@ -118,31 +139,38 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="448" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1576576424777">
+      <screen x="67" y="27" width="1297" height="741" />
+    </state>
+    <state x="448" y="154" width="524" height="484" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/67.27.1297.741@67.27.1297.741" timestamp="1576576424777" />
     <state x="448" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576496048130">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
     <state x="448" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1297.741@67.27.1297.741" timestamp="1576496048130" />
-    <state width="1251" height="175" key="GridCell.Tab.0.bottom" timestamp="1576510539821">
+    <state width="1251" height="175" key="GridCell.Tab.0.bottom" timestamp="1576579109519">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
-    <state width="1251" height="175" key="GridCell.Tab.0.bottom/67.27.1297.741@67.27.1297.741" timestamp="1576510539821" />
-    <state width="1251" height="175" key="GridCell.Tab.0.center" timestamp="1576510539817">
+    <state width="1251" height="175" key="GridCell.Tab.0.bottom/67.27.1297.741@67.27.1297.741" timestamp="1576579109519" />
+    <state width="1251" height="175" key="GridCell.Tab.0.center" timestamp="1576579109516">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
-    <state width="1251" height="175" key="GridCell.Tab.0.center/67.27.1297.741@67.27.1297.741" timestamp="1576510539817" />
-    <state width="1251" height="175" key="GridCell.Tab.0.left" timestamp="1576510539816">
+    <state width="1251" height="175" key="GridCell.Tab.0.center/67.27.1297.741@67.27.1297.741" timestamp="1576579109516" />
+    <state width="1251" height="175" key="GridCell.Tab.0.left" timestamp="1576579109516">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
-    <state width="1251" height="175" key="GridCell.Tab.0.left/67.27.1297.741@67.27.1297.741" timestamp="1576510539816" />
-    <state width="1251" height="175" key="GridCell.Tab.0.right" timestamp="1576510539821">
+    <state width="1251" height="175" key="GridCell.Tab.0.left/67.27.1297.741@67.27.1297.741" timestamp="1576579109516" />
+    <state width="1251" height="175" key="GridCell.Tab.0.right" timestamp="1576579109518">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
-    <state width="1251" height="175" key="GridCell.Tab.0.right/67.27.1297.741@67.27.1297.741" timestamp="1576510539821" />
-    <state x="371" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576504662886">
+    <state width="1251" height="175" key="GridCell.Tab.0.right/67.27.1297.741@67.27.1297.741" timestamp="1576579109518" />
+    <state x="371" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576575430470">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
-    <state x="371" y="224" key="com.intellij.ide.util.TipDialog/67.27.1297.741@67.27.1297.741" timestamp="1576504662886" />
+    <state x="371" y="224" key="com.intellij.ide.util.TipDialog/67.27.1297.741@67.27.1297.741" timestamp="1576575430470" />
     <state x="378" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1576502187851">
       <screen x="67" y="27" width="1297" height="741" />
     </state>

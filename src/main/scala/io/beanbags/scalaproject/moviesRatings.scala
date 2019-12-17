@@ -3,19 +3,25 @@ import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SQLContext
 import org.apache.spark.sql.functions._
 import org.apache.log4j._
-import java.time.LocalTime
-import java.time.Duration
+import java.time.{Duration, LocalTime}
+
+import org.apache.commons.lang.time
+import org.apache.commons.lang.time.DurationFormatUtils
 
 object moviesRatings {
   // This line hides [Info] and [Warn] from log.
   Logger.getLogger("org").setLevel(Level.ERROR)
 
   def main(args: Array[String]): Unit= {
+    println("          ============================================================")
+    println("          ================== Application Is Running ==================")
+    println("          ============================================================")
+
     /*====================================================================================================*/
     /*====================================== Configure SparkContext ======================================*/
     /*====================================================================================================*/
-    val sc = new SparkContext(new SparkConf().setAppName("Movies Rater").setMaster("local[*]"))
-    //val sc = new SparkContext(new SparkConf())
+    //val sc = new SparkContext(new SparkConf().setAppName("Movies Rater").setMaster("local[*]"))
+    val sc = new SparkContext(new SparkConf())
 
     val sqlContext = new SQLContext(sc)
 
@@ -64,6 +70,12 @@ object moviesRatings {
 
     var endTime = LocalTime.now()
     println("Finished all operations at: " + endTime)
-    println("Total time is: " + Duration.between(startTime, endTime).toMinutes + " minutes")
+
+    // Print Duration
+    var duration = Duration.between(startTime, endTime).getSeconds()
+    var sec = duration % 60
+    var min = (duration / 60) % 60
+    var hrs = duration / 3600
+    println("Total time is: " + hrs + " hours, " + min + " minutes and " + sec + " seconds.")
   }
 }
