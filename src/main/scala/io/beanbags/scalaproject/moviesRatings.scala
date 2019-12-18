@@ -31,20 +31,20 @@ object moviesRatings {
     /*============================================ Input File ============================================*/
     /*====================================================================================================*/
     var startTime = LocalTime.now()
-    println("Reading ratings.csv at: " + startTime)
+    println("Reading movies.csv at: " + startTime)
+    val movies = sqlContext.read
+      .format("csv")
+      .option("header", "true") //first line in file has headers
+      .option("inferSchema", "true")
+      .load(hdfs_URL + "datasets/movies.csv")
+
+    println("Reading ratings.csv at: " + LocalTime.now())
     val ratings = sqlContext.read
       .format("csv")
       .option("header", "true") //first line in file has headers
       .option("inferSchema", "true")
       .load(hdfs_URL + "datasets/ratings.csv")
       .drop("userId", "timestamp")
-
-    println("Reading movies.csv at: " + LocalTime.now())
-    val movies = sqlContext.read
-      .format("csv")
-      .option("header", "true") //first line in file has headers
-      .option("inferSchema", "true")
-      .load(hdfs_URL + "datasets/movies.csv")
 
     /*====================================================================================================*/
     /*========================================== Main Operation ==========================================*/

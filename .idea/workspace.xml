@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f945b139-a786-445a-a14f-34d74e9666fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/ratings.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/io/beanbags/scalaproject/moviesRatings.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/io/beanbags/scalaproject/moviesRatings.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/io/beanbags/scalaproject/moviesRatings$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/io/beanbags/scalaproject/moviesRatings$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/moviesratings_2.11-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/moviesratings_2.11-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.11.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/_global/streams/inc_compile_2.11.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/_global/streams/inputs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576586041923</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Considering HDFS locally">
+      <created>1576586508758</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576586508758</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,34 +189,34 @@
       <screen x="67" y="27" width="1297" height="741" />
     </state>
     <state x="448" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1297.741@67.27.1297.741" timestamp="1576496048130" />
-    <state x="282" y="27" width="856" height="741" key="CommitChangelistDialog2" timestamp="1576586489830">
+    <state x="282" y="27" width="856" height="741" key="CommitChangelistDialog2" timestamp="1576586508282">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
-    <state x="282" y="27" width="856" height="741" key="CommitChangelistDialog2/67.27.1297.741@67.27.1297.741" timestamp="1576586489830" />
-    <state width="1251" height="175" key="GridCell.Tab.0.bottom" timestamp="1576579109519">
+    <state x="282" y="27" width="856" height="741" key="CommitChangelistDialog2/67.27.1297.741@67.27.1297.741" timestamp="1576586508282" />
+    <state width="1251" height="175" key="GridCell.Tab.0.bottom" timestamp="1576586571998">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
-    <state width="1251" height="175" key="GridCell.Tab.0.bottom/67.27.1297.741@67.27.1297.741" timestamp="1576579109519" />
-    <state width="1251" height="175" key="GridCell.Tab.0.center" timestamp="1576579109516">
+    <state width="1251" height="175" key="GridCell.Tab.0.bottom/67.27.1297.741@67.27.1297.741" timestamp="1576586571998" />
+    <state width="1251" height="175" key="GridCell.Tab.0.center" timestamp="1576586571996">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
-    <state width="1251" height="175" key="GridCell.Tab.0.center/67.27.1297.741@67.27.1297.741" timestamp="1576579109516" />
-    <state width="1251" height="175" key="GridCell.Tab.0.left" timestamp="1576579109516">
+    <state width="1251" height="175" key="GridCell.Tab.0.center/67.27.1297.741@67.27.1297.741" timestamp="1576586571996" />
+    <state width="1251" height="175" key="GridCell.Tab.0.left" timestamp="1576586571996">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
-    <state width="1251" height="175" key="GridCell.Tab.0.left/67.27.1297.741@67.27.1297.741" timestamp="1576579109516" />
-    <state width="1251" height="175" key="GridCell.Tab.0.right" timestamp="1576579109518">
+    <state width="1251" height="175" key="GridCell.Tab.0.left/67.27.1297.741@67.27.1297.741" timestamp="1576586571996" />
+    <state width="1251" height="175" key="GridCell.Tab.0.right" timestamp="1576586571997">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
-    <state width="1251" height="175" key="GridCell.Tab.0.right/67.27.1297.741@67.27.1297.741" timestamp="1576579109518" />
-    <state x="310" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1576586045864">
+    <state width="1251" height="175" key="GridCell.Tab.0.right/67.27.1297.741@67.27.1297.741" timestamp="1576586571997" />
+    <state x="310" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1576586513162">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
-    <state x="310" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1297.741@67.27.1297.741" timestamp="1576586045864" />
-    <state x="371" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576575430470">
+    <state x="310" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1297.741@67.27.1297.741" timestamp="1576586513162" />
+    <state x="371" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1576672924375">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
-    <state x="371" y="224" key="com.intellij.ide.util.TipDialog/67.27.1297.741@67.27.1297.741" timestamp="1576575430470" />
+    <state x="371" y="224" key="com.intellij.ide.util.TipDialog/67.27.1297.741@67.27.1297.741" timestamp="1576672924375" />
     <state x="378" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1576502187851">
       <screen x="67" y="27" width="1297" height="741" />
     </state>
