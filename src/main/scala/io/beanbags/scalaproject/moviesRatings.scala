@@ -8,7 +8,7 @@ import java.time.{Duration, LocalTime}
 import org.apache.commons.lang.time
 import org.apache.commons.lang.time.DurationFormatUtils
 
-object moviesRatings {
+object moviesRatings extends Serializable{
   // This line hides [Info] and [Warn] from log.
   Logger.getLogger("org").setLevel(Level.ERROR)
 
@@ -25,7 +25,7 @@ object moviesRatings {
 
     val sqlContext = new SQLContext(sc)
 
-    val hdfs_URL = "hdfs://localhost:9000/"
+    val hdfs_URL = "hdfs://hadoop-namenode:9000/"
 
     /*====================================================================================================*/
     /*============================================ Input File ============================================*/
